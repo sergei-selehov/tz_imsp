@@ -18,6 +18,3 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-//Route::get('search', 'AutoCompleteController@index');
-//Route::get('autocomplete', 'AutoCompleteController@search');
